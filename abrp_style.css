@@ -1,0 +1,73 @@
+ /* ================================
+BLOG AUTHORS PLUGIN STYLES
+================================= */
+ .clear {
+     clear: both;
+ }
+ #BlogAuthorsWrapper {
+     width: 300px;
+     margin: 0 auto;
+     padding: 0;
+ }
+ #BlogAuthorsWrapper h3 {
+     font: 500 22px/130%  sans-serif !Important;
+ }
+ #BlogAuthorsList {
+     width: 300px;
+     margin: 0;
+     padding: 0;
+ }
+ #BlogAuthorsList ul {
+     width: 300px;
+     margin: 0;
+     padding: 0;
+ }
+ #BlogAuthorsList ul li {
+     list-style: none !Important;
+     background: none !Important;
+     float: left;
+     margin: 0 10px 20px 0;
+     padding: 0;
+     width: 130px;
+ }
+ #BlogAuthorsList ul li img {
+     width: 90px;
+     height: 90px;
+     background: #fff;
+     border: 1px #dfdddd solid;
+     margin: 0;
+     padding: 2px;
+ }
+ #BlogAuthorsList ul li img:hover {
+     background: #5fc0d4;
+ }
+ #BlogAuthorsList ul.circular li img {
+     width: 90px;
+     height: 90px;
+     background: #fff;
+     border: 1px #dfdddd solid;
+     margin: 0;
+     padding: 2px;
+     border-radius: 150px;
+     -webkit-border-radius: 150px;
+     -moz-border-radius: 150px;
+ }
+ #BlogAuthorsList ul.circular li img:hover {
+     background: #5fc0d4;
+
+ }
+ #BlogAuthorsList ul li a {
+     text-decoration: none;
+ }
+ #BlogAuthorsList ul li h2, #BlogAuthorsList ul li h2 a {
+     margin: 8px 0 0 0;
+     padding: 0;
+     font: 500 16px/130%  sans-serif !Important;
+     color: #454646;
+ }
+ #BlogAuthorsList ul li a h3, #BlogAuthorsList ul li h3 a {
+     margin: 0;
+     padding: 0;
+     font: 300 italic 11px/100%  sans-serif !Important;
+     color: #919393;
+ }
